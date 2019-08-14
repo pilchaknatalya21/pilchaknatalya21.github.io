@@ -1,0 +1,256 @@
+
+* {
+    margin: 0 auto;
+}
+@font-face {
+    font-family: "Segoe WP";
+    src: url(../fonts/ofont.ru_Segoe\ WP\ Light.ttf);
+}
+.logo {
+    background-color: #5094f2;
+    width: 53px;
+    height: 52px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-family: "Source Sans Pro";
+    font-size: 75px;
+    font-weight: 400;
+    text-align: center;
+}
+.logo-name {
+    display: flex;
+}
+.Prechu {
+    color: #000000;
+    font-family: "Segoe WP";
+    font-size: 49px;
+    font-weight: 300;
+    letter-spacing: 0.42px;
+    padding-left: 17px;
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-bottom: 15px;
+}
+.mob-menu {
+    width: 58px;
+    height: 44px;
+    background-color: #5094f2;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+}
+.wrapper1 {
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    margin-bottom: 41px;
+}
+.foto1 {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.p-title-nav {
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 35.94px;
+}
+.p-text {
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 35.94px;
+    padding-bottom: 33px;
+}
+.button{
+    width: 235px;
+    height: 53px;
+    background-color: #5094f2;
+    border: 1px solid transparent; 
+    color: #ffffff;
+    font-family: "Segoe WP";
+    font-size: 31px;
+    font-weight: 300;
+    line-height: 61.77px;
+    text-align: center;
+}
+.icon-checkmark:before {
+    content: "\ea10";
+}
+  
+.nav-text {
+    display: flex;
+    text-align: justify;
+    padding-top: 28px;
+    justify-content: center;
+}
+.text-nav {
+    padding-left: 66px;
+}
+.foto-Shape-3 {
+    width: 186px;
+    height: 186px;
+    background-color: #5094f2;
+    border-radius: 50%;
+    text-align: center;
+}
+.main-h1 {
+    color: #5094f2;
+    font-family: "Segoe WP";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51.86px;
+}
+.main-text1 {
+    color: #909090;
+    font-family: "Segoe WP";
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+
+.shape-text {
+    padding-left: 27px;
+}
+.main-text-all {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.Shape-foto {
+    padding-top: 35px;
+}
+.foto-Shape-6 {
+    width: 186px;
+    height: 186px;
+    background-color: #d94748;
+    border-radius: 50%;
+    text-align: center;
+}
+.foto-Shape-5 {
+    width: 186px;
+    height: 186px;
+    background-color: #ebbb11;
+    border-radius: 50%;
+    text-align: center;
+}
+.cart-title {
+    color: #6f7173;
+    font-family: "Segoe WP";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 44.42px;
+    
+    padding-top: 48px;
+    margin-bottom: 36px;
+}
+.cart {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.p-title {
+    color: #6f7173;
+    font-family: "Segoe WP";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 44.42px;
+    text-align: left;
+    margin-bottom: 34px;
+    padding-left: 77px;
+}
+.cart-text {
+    width: 80%;
+    color: #909090;
+    font-family: "Segoe WP";
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 80px;
+    display: block;   
+    padding-left: 77px;
+}
+.img-cart {
+    text-align: justify;
+    
+}
+footer {
+    color: #909090;
+    font-family: "Segoe WP";
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media (min-width: 740px) {
+    .mob-menu {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+        color: #6c6c6c;
+        font-family: "Segoe WP";
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+    }
+    .header-menu {
+        width: 394px;
+        height: 16px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+    .header-menu li {
+        width: 87px;
+    }
+    hr {
+        display: none;
+    }
+    .main-all {
+        display: flex;
+        justify-content: center;
+        padding-left: 30px;
+        
+    }
+    .main-text-all {
+        display: block;
+
+    }
+    .shape-text {
+        text-align: center;
+    }
+    .main-h1 {
+        font-size: 20px;
+    }
+    .main-text1 {
+        font-size: 14px;    
+    }
+    .foto-Shape-3 {
+        text-align: center;
+        margin-right: auto;
+    }
+    .cart-title {
+        font-size: 42px;
+        line-height: 44.42px;
+    }
+    .text-cart-all {
+        display: flex;
+
+    }
+    .text {
+        padding-top: 100px;
+    }
+}
